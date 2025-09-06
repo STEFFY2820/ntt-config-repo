@@ -1,10 +1,4 @@
 spring:
-  application:
-    name: ntt-ms-customers
-
   data:
     mongodb:
       uri: mongodb://localhost:27017/bank
-
-server:
-  port: 8080
