@@ -3,9 +3,6 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/accounts_db
 
-server:
-  port: 8080
-
 logging:
   level:
     root: INFO
@@ -25,7 +22,7 @@ management:
     web:
       base-path: /actuator
       exposure:
-        include: health,info,mappings
+        include: health,info,mappings,refresh
   endpoint:
     health:
       show-details: always
